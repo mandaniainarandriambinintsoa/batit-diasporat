@@ -458,6 +458,18 @@ Traitement Drawbridge `/bridge` du 2026-06-06 :
   `assets/section-review/12-bridge-final-todos-mobile.png` ;
 - `npm run build` : OK.
 
+## Publication GitHub / Vercel du 2026-06-06
+
+- repo Git initialise en local sur `main` ;
+- depot GitHub public cree :
+  `https://github.com/mandaniainarandriambinintsoa/batit-diasporat` ;
+- package renomme en `batit-diasporat` ;
+- projet Vercel cree et relie au repo GitHub sous le scope
+  `mandas-projects-d5939030` ;
+- deploiement production Vercel pret :
+  `https://batit-diasporat.vercel.app` ;
+- verification production : URL publique en `200 OK`, Vercel status `Ready`.
+
 Verifie : `npm run build` OK.
 
 ## Refonte icones via Unicons (Iconscout) du 2026-06-05
