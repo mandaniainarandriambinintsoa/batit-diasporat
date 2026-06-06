@@ -1,0 +1,50 @@
+Use case: ui-mockup
+Asset type: full-page premium website mockup, desktop landing page, 1440px-wide composition.
+
+Create a full-page premium website mockup for a construction company helping diaspora families build a house in their country of origin with proof and follow-up.
+
+Core concept:
+"Votre maison au pays ne devrait pas dépendre de promesses floues."
+
+Audience:
+Diaspora families who have heard stories of money sent for construction, unclear progress, delayed houses, or unfinished projects.
+
+Brand name:
+Maison Suivie
+
+Hero headline:
+"Votre maison au pays ne devrait pas dépendre de promesses floues."
+
+Subcopy:
+"Un cadre clair pour construire à distance : devis, jalons, responsable unique et preuves régulières."
+
+Required sections:
+- soft premium navigation;
+- emotional hero with house under construction or renovated home;
+- trust proof chips;
+- pain section;
+- solution section;
+- before/after proof block;
+- simple milestones;
+- photo/video reporting;
+- diaspora geography section;
+- project form;
+- final reassurance CTA;
+- footer.
+
+Visual direction:
+Warm, human, elegant, family trust, premium residential construction. Cream background, sage green and terracotta accents, large authentic photos, soft but confident typography.
+It should feel less corporate and more trustworthy/personal than the dark version.
+
+Composition:
+Long full-page desktop website mockup, 1440px wide, high-end landing page screenshot without browser frame.
+
+Text handling:
+Main French headings readable. Include labels such as:
+"Photos datées"
+"Compte rendu clair"
+"Paiement validé"
+"Responsable unique"
+
+Constraints:
+Direct bitmap mockup only. No HTML/CSS screenshot look. No generic card grid slop. No blob backgrounds. No plastic AI people. No random text artifacts. No watermark. No fake overcomplicated app UI. Must feel like a real website a serious diaspora client would trust.

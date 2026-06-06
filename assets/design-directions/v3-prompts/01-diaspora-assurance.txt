@@ -1,0 +1,46 @@
+Use case: ui-mockup
+Asset type: full-page premium website mockup, desktop landing page, 1440px-wide composition.
+
+Create a polished full-page website mockup for a construction company serving the diaspora.
+
+Core concept:
+"Construisez au pays sans avancer à l'aveugle."
+
+Audience:
+People living abroad who want to build a house in their country of origin and fear sending money without control, proof, or clear progress.
+
+Brand name:
+Bati Diaspora
+
+Hero copy:
+"Construisez au pays sans avancer à l'aveugle."
+
+Subcopy:
+"Devis détaillé, paiements par jalons, reporting photo/vidéo et responsable unique pour suivre votre maison même depuis l'étranger."
+
+Required sections in the full-page mockup:
+- top navigation;
+- large photo hero with construction/renovation workers and a house project;
+- trust chips: Devis détaillé, Paiements par jalons, Photos / vidéos, Responsable unique;
+- pain section about distance and missing proof;
+- solution section for construction clé en main encadrée;
+- proof visual area with before/after or progress photos;
+- payment milestones timeline;
+- remote chantier reporting section;
+- diaspora/world section;
+- project evaluation form;
+- strong final CTA;
+- professional footer.
+
+Visual direction:
+Commercial premium, warm, credible, conversion-focused, like a high-end local service website.
+Strong typography, elegant spacing, realistic photography integrated into the page, cream and sand background, deep navy text, orange construction accent.
+
+Composition:
+Full-page vertical website screenshot, desktop layout, 1440px wide, long scrolling landing page, all sections visible, realistic image placements, no browser chrome.
+
+Text handling:
+Use clean French headings and short readable labels. Avoid tiny paragraph walls. Main headings must be legible.
+
+Constraints:
+Direct bitmap mockup only. No HTML renderer look. No wireframe. No abstract blobs. No fake unreadable logo soup. No random brand names. No watermark. No generic AI gloss. No futuristic SaaS dashboard. Keep the design grounded in construction, proof, trust, and diaspora distance.

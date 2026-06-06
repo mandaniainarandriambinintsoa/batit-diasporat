@@ -1,0 +1,49 @@
+Use case: ui-mockup
+Asset type: full-page premium website mockup, desktop landing page, 1440px-wide composition.
+
+Create a full-page website mockup for a premium construction project-control service for the diaspora.
+
+Core concept:
+"Un chantier au pays piloté comme un vrai projet."
+
+Audience:
+Diaspora clients building a house remotely who need proof before each payment.
+
+Brand name:
+Bati Control
+
+Hero headline:
+"Un chantier au pays piloté comme un vrai projet."
+
+Subcopy:
+"Photos, vidéos, achats, planning et validation des jalons avant chaque décaissement important."
+
+Required sections:
+- top navigation;
+- dark photographic hero with site supervisor, tablet, or construction site;
+- overlay cards showing jalon/proof/payment status;
+- pain section;
+- construction control system section;
+- proof gallery;
+- payment-by-milestones timeline;
+- reporting dashboard section;
+- diaspora reach section;
+- project evaluation form;
+- final CTA and footer.
+
+Visual direction:
+Premium dark, technical, controlled, high-trust. Inspired by a luxury automotive/garage site and architecture studio.
+Dark navy/black background, amber construction accent, sharp cards, strong contrast, professional photography, not playful.
+
+Composition:
+Full-page vertical desktop website mockup, long landing page, realistic visual hierarchy, all sections visible, no browser chrome.
+
+Text handling:
+French headings should be readable:
+"Paiements par jalons"
+"Preuves photo/vidéo"
+"Validation avant décaissement"
+"Suivi de chantier à distance"
+
+Constraints:
+Direct bitmap mockup only. No coded HTML screenshot style. No wireframe. No abstract blob filler. No fake unreadable dashboards dominating the page. No fantasy skyscrapers. No watermark. No illegible logo marks everywhere. Must clearly communicate construction proof and remote control for diaspora.
