@@ -1,5 +1,6 @@
 import ProjectEvaluationForm from "@/components/forms/ProjectEvaluationForm";
 import { BatiIcon, LogoMark, WhatsAppMark } from "@/components/icons/BatiIcons";
+import ScrollReveal from "@/components/motion/ScrollReveal";
 import {
   faqs,
   formBenefits,
@@ -30,7 +31,7 @@ function BrandLockup() {
 
 function Header() {
   return (
-    <header className="site-header">
+    <header className="site-header" data-reveal="fade-down">
       <BrandLockup />
       <nav className="main-nav" aria-label="Navigation principale">
         {navLinks.map((link) => (
@@ -49,8 +50,13 @@ function Header() {
 function TrustStrip() {
   return (
     <div className="trust-strip" aria-label="Garanties principales">
-      {trustChips.map((chip) => (
-        <article className="trust-item" key={chip.title}>
+      {trustChips.map((chip, index) => (
+        <article
+          className="trust-item"
+          key={chip.title}
+          data-reveal="fade-up"
+          style={{ "--reveal-delay": `${index * 70}ms` }}
+        >
           <span className="icon-ring">
             <BatiIcon name={chip.icon} />
           </span>
@@ -68,8 +74,13 @@ function Hero() {
   return (
     <section className="hero-section" id="accueil">
       <Header />
-      <div className="hero-bg" aria-hidden="true" />
-      <div className="hero-content">
+      <div
+        className="hero-bg"
+        aria-hidden="true"
+        data-reveal="fade-left"
+        style={{ "--reveal-delay": "120ms" }}
+      />
+      <div className="hero-content" data-reveal="fade-right">
         <h1>
           Construisez
           <br />
@@ -101,7 +112,7 @@ function ProblemSolution() {
   return (
     <section className="split-section" id="a-propos">
       <div className="split-grid">
-        <article className="problem-copy">
+        <article className="problem-copy" data-reveal="fade-right">
           <p className="section-kicker">Le problème</p>
           <h2>Trop loin. Pas assez de preuves.</h2>
           <p className="section-intro">
@@ -119,13 +130,21 @@ function ProblemSolution() {
             Résultat : stress, pertes d'argent et projets inachevés.
           </strong>
         </article>
-        <div className="client-photo">
+        <div
+          className="client-photo"
+          data-reveal="zoom-soft"
+          style={{ "--reveal-delay": "90ms" }}
+        >
           <img
             src="/images/bati-diaspora/distance-client.png"
             alt="Client de la diaspora inquiet devant son téléphone pendant le suivi des travaux"
           />
         </div>
-        <article className="solution-copy">
+        <article
+          className="solution-copy"
+          data-reveal="fade-left"
+          style={{ "--reveal-delay": "150ms" }}
+        >
           <p className="section-kicker">Notre solution</p>
           <h2>Une construction clé en main encadrée, transparente et sûre.</h2>
           <p className="section-intro">
@@ -155,12 +174,17 @@ function ProblemSolution() {
 function ProofGallery() {
   return (
     <section className="proof-gallery" id="realisations">
-      <div className="section-title centered">
+      <div className="section-title centered" data-reveal="fade-up">
         <h2>Des projets. Des preuves.</h2>
       </div>
       <div className="progress-gallery">
         {progressPhotos.map((photo, index) => (
-          <article className="progress-card" key={photo.label}>
+          <article
+            className="progress-card"
+            key={photo.label}
+            data-reveal="fade-up"
+            style={{ "--reveal-delay": `${index * 65}ms` }}
+          >
             <img src={photo.image} alt={photo.alt} />
             <span>{photo.label}</span>
             {index < progressPhotos.length - 1 ? (
@@ -176,12 +200,17 @@ function ProofGallery() {
 function Milestones() {
   return (
     <section className="milestone-section" id="methode">
-      <div className="section-title centered">
+      <div className="section-title centered" data-reveal="fade-up">
         <h2>Paiements par jalons - vous gardez le contrôle</h2>
       </div>
       <div className="milestone-track">
-        {milestones.map((milestone) => (
-          <article className="milestone-item" key={milestone.step}>
+        {milestones.map((milestone, index) => (
+          <article
+            className="milestone-item"
+            key={milestone.step}
+            data-reveal="fade-up"
+            style={{ "--reveal-delay": `${index * 55}ms` }}
+          >
             <span className="icon-ring large">
               <BatiIcon name={milestone.icon} />
             </span>
@@ -190,7 +219,7 @@ function Milestones() {
           </article>
         ))}
       </div>
-      <p className="milestone-note">
+      <p className="milestone-note" data-reveal="fade-up">
         <BatiIcon name="lock" />
         Chaque jalon est validé par vous avec preuves avant le paiement suivant.
       </p>
@@ -201,18 +230,27 @@ function Milestones() {
 function RemoteReporting() {
   return (
     <section className="remote-section" id="services">
-      <div className="remote-image">
+      <div className="remote-image" data-reveal="fade-right">
         <img
           src="/images/bati-diaspora/remote-report.png"
           alt="Client consultant les preuves photo et vidéo de son chantier depuis son téléphone"
         />
       </div>
-      <article className="remote-content">
+      <article
+        className="remote-content"
+        data-reveal="fade-left"
+        style={{ "--reveal-delay": "90ms" }}
+      >
         <h2>Suivi de chantier à distance</h2>
         <p className="section-intro">Vous voyez. Vous comprenez. Vous décidez.</p>
         <div className="report-grid">
-          {reportingItems.map((item) => (
-            <article className="report-card" key={item.title}>
+          {reportingItems.map((item, index) => (
+            <article
+              className="report-card"
+              key={item.title}
+              data-reveal="fade-up"
+              style={{ "--reveal-delay": `${120 + index * 55}ms` }}
+            >
               <span className="icon-ring small">
                 <BatiIcon name={item.icon} />
               </span>
@@ -231,7 +269,7 @@ function RemoteReporting() {
 function ContactSection() {
   return (
     <section className="contact-section" id="contact">
-      <div className="contact-copy">
+      <div className="contact-copy" data-reveal="fade-right">
         <p className="section-kicker">Construction pour la diaspora</p>
         <h2>Votre projet mérite le meilleur départ.</h2>
         <p>
@@ -239,8 +277,12 @@ function ContactSection() {
           décision, même si vous suivez le chantier depuis l'étranger.
         </p>
         <div className="benefit-row">
-          {formBenefits.map((benefit) => (
-            <article key={benefit.title}>
+          {formBenefits.map((benefit, index) => (
+            <article
+              key={benefit.title}
+              data-reveal="fade-up"
+              style={{ "--reveal-delay": `${index * 65}ms` }}
+            >
               <span className="icon-ring small">
                 <BatiIcon name={benefit.icon} />
               </span>
@@ -252,7 +294,11 @@ function ContactSection() {
           ))}
         </div>
       </div>
-      <div className="form-panel">
+      <div
+        className="form-panel"
+        data-reveal="fade-left"
+        style={{ "--reveal-delay": "120ms" }}
+      >
         <div className="form-panel-head">
           <h3>Demandez votre étude gratuite</h3>
           <p>Réponse sous 24h avec les prochaines étapes.</p>
@@ -265,23 +311,23 @@ function ContactSection() {
 
 function FinalCta() {
   return (
-    <section className="final-cta">
-      <div>
+    <section className="final-cta" data-reveal="fade-up">
+      <div data-reveal="fade-right">
         <h2>
           Ne construisez plus dans le doute.
           <span> Construisez avec Bati Diaspora.</span>
         </h2>
       </div>
       <div className="final-proofs">
-        <span>
+        <span data-reveal="fade-up" style={{ "--reveal-delay": "90ms" }}>
           <BatiIcon name="lock" />
           Zéro avance à l'aveugle
         </span>
-        <span>
+        <span data-reveal="fade-up" style={{ "--reveal-delay": "150ms" }}>
           <BatiIcon name="documentCheck" />
           Transparence totale
         </span>
-        <span>
+        <span data-reveal="fade-up" style={{ "--reveal-delay": "210ms" }}>
           <BatiIcon name="checkShield" />
           Qualité garantie
         </span>
@@ -311,7 +357,7 @@ function FaqSection() {
 
 function Footer() {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" data-reveal="fade-up">
       <div className="footer-brand">
         <BrandLockup />
         <div className="social-row" aria-label="Reseaux sociaux">
@@ -390,6 +436,7 @@ export default function Home() {
 
   return (
     <>
+      <ScrollReveal />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

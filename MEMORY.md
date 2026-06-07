@@ -472,6 +472,35 @@ Traitement Drawbridge `/bridge` du 2026-06-06 :
 
 Verifie : `npm run build` OK.
 
+## Animations legeres du 2026-06-07
+
+Objectif : ajouter des micro-animations de contenu sans casser la densite ni la
+fidelite de `V3 A - Diaspora Assurance`.
+
+Implementation :
+
+- ajout de `components/motion/ScrollReveal.jsx` avec `IntersectionObserver` ;
+- ajout d'attributs `data-reveal` sur hero, trust strip, probleme/solution,
+  preuves, jalons, suivi distance, contact, CTA final et footer ;
+- animations CSS sobres : fade/slide court, zoom doux sur l'image centrale,
+  decalage leger sur les listes, hover discret sur CTA, icones, preuves et
+  reseaux sociaux ;
+- support `prefers-reduced-motion: reduce` : pas de transition, pas de scroll
+  smooth force.
+
+Verification locale production :
+
+- `npm run build` : OK avec Next.js 16.2.7 ;
+- serveur local `next start -p 3000` : page en `200 OK` ;
+- verification Playwright via le Playwright du design system :
+  desktop `1440x1100` et mobile `390x900` ;
+- resultats : aucune erreur console, aucune requete echouee, aucune image
+  cassee, aucun overflow horizontal, `42/42` elements `data-reveal` visibles
+  apres scroll complet ;
+- captures ajoutees :
+  `assets/verification/v3-01-motion-desktop.png` et
+  `assets/verification/v3-01-motion-mobile.png`.
+
 ## Refonte icones via Unicons (Iconscout) du 2026-06-05
 
 Sur demande de Manda : rapprocher les icones de celles de la maquette en
