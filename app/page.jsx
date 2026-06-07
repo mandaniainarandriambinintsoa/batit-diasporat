@@ -136,7 +136,7 @@ function ProblemSolution() {
           style={{ "--reveal-delay": "90ms" }}
         >
           <img
-            src="/images/bati-diaspora/distance-client.png"
+            src="/images/bati-diaspora/distance-client.webp"
             alt="Client de la diaspora inquiet devant son téléphone pendant le suivi des travaux"
           />
         </div>
@@ -232,7 +232,7 @@ function RemoteReporting() {
     <section className="remote-section" id="services">
       <div className="remote-image" data-reveal="fade-right">
         <img
-          src="/images/bati-diaspora/remote-report.png"
+          src="/images/bati-diaspora/remote-report.webp"
           alt="Client consultant les preuves photo et vidéo de son chantier depuis son téléphone"
         />
       </div>

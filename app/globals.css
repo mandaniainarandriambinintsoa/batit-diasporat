@@ -197,7 +197,7 @@ button {
   width: 520px;
   height: 410px;
   pointer-events: none;
-  background-image: url("/images/bati-diaspora/hero-construction.png");
+  background-image: url("/images/bati-diaspora/hero-construction.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 900px auto;
@@ -211,7 +211,7 @@ button {
   inset: 88px 0 0 auto;
   width: 62%;
   min-height: 540px;
-  background-image: url("/images/bati-diaspora/hero-construction.png");
+  background-image: url("/images/bati-diaspora/hero-construction.webp");
   background-size: cover;
   background-position: center right;
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.45) 16%, #000 36%);
@@ -1178,7 +1178,7 @@ button {
     inset: 94px 0 0 auto;
     width: 72%;
     min-height: 514px;
-    background-image: url("/images/bati-diaspora/hero-construction.png");
+    background-image: url("/images/bati-diaspora/hero-construction.webp");
     background-position: center right;
     background-size: cover;
     -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.45) 15%, #000 35%);
@@ -2170,7 +2170,7 @@ button {
     inset: 94px 0 0 auto;
     width: 60%;
     min-height: 514px;
-    background-image: url("/images/bati-diaspora/hero-construction.png");
+    background-image: url("/images/bati-diaspora/hero-construction.webp");
     background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -2709,7 +2709,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/images/bati-diaspora/remote-report.png") center / cover no-repeat;
+  background: url("/images/bati-diaspora/remote-report.webp") center / cover no-repeat;
   filter: blur(18px);
   opacity: 0.16;
   transform: scale(1.08);

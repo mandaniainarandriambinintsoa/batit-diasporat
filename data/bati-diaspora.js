@@ -49,27 +49,27 @@ export const solutionPoints = [
 export const progressPhotos = [
   {
     label: "Avant",
-    image: "/images/bati-diaspora/progress-before.png",
+    image: "/images/bati-diaspora/progress-before.webp",
     alt: "Terrain préparé avant le démarrage d'une construction"
   },
   {
     label: "Fondations",
-    image: "/images/bati-diaspora/progress-foundations.png",
+    image: "/images/bati-diaspora/progress-foundations.webp",
     alt: "Fondations d'une maison en cours de construction"
   },
   {
     label: "Élévation",
-    image: "/images/bati-diaspora/progress-elevation.png",
+    image: "/images/bati-diaspora/progress-elevation.webp",
     alt: "Murs en élévation sur un chantier de maison"
   },
   {
     label: "Finitions",
-    image: "/images/bati-diaspora/progress-finishes.png",
+    image: "/images/bati-diaspora/progress-finishes.webp",
     alt: "Maison en finitions avant réception"
   },
   {
     label: "Après",
-    image: "/images/bati-diaspora/progress-after.png",
+    image: "/images/bati-diaspora/progress-after.webp",
     alt: "Maison terminée après livraison"
   }
 ];

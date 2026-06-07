@@ -25,7 +25,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/images/bati-diaspora/hero-construction.png",
+        url: "/images/bati-diaspora/hero-construction.webp",
         width: 795,
         height: 420,
         alt: "Maison en construction suivie à distance par Bati Diaspora"

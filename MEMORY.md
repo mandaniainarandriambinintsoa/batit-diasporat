@@ -510,6 +510,23 @@ Publication :
 - verification navigateur production : aucune erreur console, aucune requete
   echouee, images chargees, hero present, pas d'overflow horizontal.
 
+## Optimisation images WebP du 2026-06-07
+
+Objectif : aligner les assets production avec la regle du skill
+`site-web-metier` : privilegier WebP/AVIF dans `public/images`.
+
+Implementation :
+
+- toutes les images de `public/images/bati-diaspora/` ont ete converties de
+  PNG vers WebP ;
+- les references runtime dans `app/page.jsx`, `app/layout.jsx`,
+  `app/globals.css` et `data/bati-diaspora.js` pointent maintenant vers les
+  fichiers `.webp` ;
+- les anciens PNG de production ont ete retires du dossier public ;
+- verification navigateur locale : images chargees, backgrounds hero/suivi en
+  WebP, aucun `.png` runtime pour `images/bati-diaspora`, pas d'overflow
+  horizontal, aucune erreur console.
+
 ## Refonte icones via Unicons (Iconscout) du 2026-06-05
 
 Sur demande de Manda : rapprocher les icones de celles de la maquette en
