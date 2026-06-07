@@ -501,6 +501,15 @@ Verification locale production :
   `assets/verification/v3-01-motion-desktop.png` et
   `assets/verification/v3-01-motion-mobile.png`.
 
+Publication :
+
+- commit GitHub `6e9c3b7` pousse sur `origin/main` ;
+- deploiement Vercel production relance avec `vercel --prod --yes` ;
+- alias public verifie en `200 OK` :
+  `https://batit-diasporat.vercel.app` ;
+- verification navigateur production : aucune erreur console, aucune requete
+  echouee, images chargees, hero present, pas d'overflow horizontal.
+
 ## Refonte icones via Unicons (Iconscout) du 2026-06-05
 
 Sur demande de Manda : rapprocher les icones de celles de la maquette en
